@@ -1,0 +1,27 @@
+
+insert into book values('isbn2' ,'name','write' ,'image','genre','publisher','position' , SYSDATE );
+insert into book values('isbn3' ,'name','write' ,'image','genre','publisher','position' , SYSDATE );
+insert into book values('isbn4' ,'name','write' ,'image','genre','publisher','position' , SYSDATE );
+insert into book values('isbn5' ,'name','write' ,'image','genre','publisher','position' , SYSDATE );
+insert into book values('isbn6' ,'name','write' ,'image','genre','publisher','position' , SYSDATE );
+insert into book values('isbn7' ,'name','write' ,'image','genre','publisher','position' , SYSDATE );
+insert into book values('isbn8' ,'name','write' ,'image','genre','publisher','position' , SYSDATE );
+insert into book values('isbn9' ,'name','write' ,'image','genre','publisher','position' , SYSDATE );
+insert into book values('isbn10' ,'name','write' ,'image','genre','publisher','position' , SYSDATE );
+select * from book;
+
+insert into member values('member1' ,'gender','name' ,'phone_number','address','image' , SYSDATE );
+insert into member values('member2' ,'gender','name' ,'phone_number','address','image' , SYSDATE );
+insert into member values('member3' ,'gender','name' ,'phone_number','address','image' , SYSDATE );
+insert into member values('member4' ,'gender','name' ,'phone_number','address','image' , SYSDATE );
+insert into member values('member5' ,'gender','name' ,'phone_number','address','image' , SYSDATE );
+insert into member values('member6' ,'gender','name' ,'phone_number','address','image' , SYSDATE );
+insert into member values('member7' ,'gender','name' ,'phone_number','address','image' , SYSDATE );
+insert into member values('member8' ,'gender','name' ,'phone_number','address','image' , SYSDATE );
+insert into member values('member9' ,'gender','name' ,'phone_number','address','image' , SYSDATE );
+insert into member values('member10' ,'gender','name' ,'phone_number','address','image' , SYSDATE);
+select * from book;
+
+insert into manager values(1 ,'kitri','kitri','kitri');
+select * from manager;
+commit;
